@@ -7,7 +7,9 @@ from .compiler import compile_circuit
 from .resource_estimation import gate_count, qubit_count, circuit_depth
 from .simulator import QuantumSimulator
 from .transformations import *
-from .backends import *
+from .compiler import Compiler
+from .backends import BaseBackend, QiskitBackend, CirqBackend, RigettiBackend
+from .simulator import QuantumSimulator  # Added missing import
 
 __version__ = '0.1.0'
 __all__ = [
