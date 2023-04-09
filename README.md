@@ -1,3 +1,6 @@
+[Documentation on QuantumFlow](https://glamorous-yak-48a.notion.site/1-QuantumFlow-9315245807634ea9b574eb59c20f6694)
+
+
 # Installation on Linux and macOS
 
 Using the terminal, first, install Python 3.7 or higher:
