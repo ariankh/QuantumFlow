@@ -4,6 +4,12 @@ from pyquil.gates import *
 from ..circuit import QuantumCircuit
 from .base_backend import Backend
 
+from .base_backend import BaseBackend
+# Other imports
+
+class RigettiBackend(BaseBackend):  # Inherit from BaseBackend
+    # Implementation
+
 class RigettiBackend(Backend):
     """
     RigettiBackend interfaces with Rigetti's quantum hardware.
